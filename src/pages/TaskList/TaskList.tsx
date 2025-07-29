@@ -28,6 +28,7 @@ function TaskList() {
     newStatus: string | null
   ) => {
     setStatusFilter(newStatus)
+    console.log(event)
   }
 
   const handlePriorityChange = (event: SelectChangeEvent) => {
